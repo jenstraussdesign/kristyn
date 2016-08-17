@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+body {
+  background-image: url("background.jpg"); }
+
+h1 {
+  font-family: 'Mr+Dafoe';
+  font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
