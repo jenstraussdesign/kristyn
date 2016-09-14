@@ -1,17 +1,23 @@
-console.log('hi');
+require('../.sass-cache/main.scss');
+// ^ cannot get this to link to the main.scss !!!
 
+var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab')),
+    currentTab = 'eat';
 
+tabs.map(function(tab) {
+    tab.addEventListener('click', function(e) {
+        var previousTab = document.getElementById(currentTab),
+            newTabValue = e.target.attributes.value.value,
+            activeTab = document.getElementById(newTabValue)
 
+        previousTab.classList.add('hidden');
 
+        activeTab.classList.remove('hidden');
 
+        document.querySelector('.tab[value="' + currentTab + '"]').classList.remove('tab--active');
+        
+        e.target.classList.add('tab--active');
 
-
-// $('#myTabs a').click(function (e) {
-//   e.preventDefault()
-//   $(this).tab('show')
-// })
-
-// $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
-// $('#myTabs a:first').tab('show') // Select first tab
-// $('#myTabs a:last').tab('show') // Select last tab
-// $('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+        currentTab = newTabValue;
+    });
+});

@@ -7,37 +7,40 @@
     <link rel="stylesheet" href="../stylesheets/main.css">
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script> -->
-    <script src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
   </head>
 
-  <div class="wrapper">
+  <body>
     <div class="header">
-        <div class="large_watercolor">
-          <img class="header_places" src="../images/header_places.png">
-         </div>
-
-        <div class="container">
-          <hr align="center" max-width="1000px" color="green" class="line1">
-            <div class="nav-links">
-              <a href="#">eat + drink</a>
-              <a href="#">bars + music</a>
-              <a href="#">shopping</a>
-              <a href="#">visit</a>
-            </div>
-          <hr align="center" max-width="1000px" color="green" class="line2">
-        </div>
+      <div class="large_watercolor">
+         <img class="header_watercolor" src="../images/header_places.png">
       </div>
     </div>
 
-<!--     <div class="container">
-        <button type="button" class="tab-pane fade in active" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="eat-drinks">eat + drink</button>
+    <div class="container">
+      <div class="tab--container">
+        <div class="tab tab--active" value="eat">eat + drink</div>
+        <div class="tab" value="bar">bars + music</div>
+        <div class="tab" value="shopping">shopping</div>
+        <div class="tab" value="visit">visit</div>
+      </div>
 
-        <button type="button" class="tab-pane fade" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="bars/music">bars + music</button>
-
-        <button type="button" class="tab-pane fade" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="shopping">shopping</button>
-
-        <button type="button" class="tab-pane fade" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="visit">visit</button>
-    </div> -->
-
+        <div class="tab--content" id="eat">
+          one
+        </div>
+        
+        <div class="tab--content hidden" id="bar">
+          two
+        </div>
+        
+        <div class="tab--content hidden" id="shopping">
+          three
+        </div>
+        
+        <div class="tab--content hidden" id="visit">
+          four
+        </div>
+      </div>
+    </div>
   </body>
 </html>

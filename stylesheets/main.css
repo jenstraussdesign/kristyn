@@ -48,6 +48,26 @@ a:active {
   left: 0;
   width: 100%; }
 
+.container {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%; }
+
+.tab--container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.tab {
+  margin: 0 20px; }
+
+.tab--active {
+  background-color: red; }
+
+.hidden {
+  display: none; }
+
 /*.line1 {
 	top: 200px; 
 	width: 100%;
