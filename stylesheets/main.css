@@ -1,7 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Great+Vibes|Lato";
 body {
-  background-image: url("../Images/fullbg.jpg");
+  background-image: url("../images/background_lg.jpg");
   background-size: cover;
+  background-attachment: fixed;
   font-family: Lato;
   max-width: 1000px;
   margin: 0 auto;

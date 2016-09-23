@@ -5,14 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Kristyn and Martin</title>
 		<link rel="stylesheet" href="stylesheets/main.css">
-		<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script> -->
-		<script src="js/main.js"></script>
-	</head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<!-- 		<script type="text/javascript" src="../js/jquery.scrollTo.js"></script>
+ --><!-- 		<script type="text/javascript" src="../js/main.js"></script>
+ -->	</head>
 
 <body>
 		<div class="wrapper">
 			<div class="header">
+				<a name="#page-home"></a><!--jump_menu-->
 				<div class="large_watercolor">
 					<img class="header_watercolor" src="images/header_watercolor.png">
 				</div><!--large_watercolor-->
@@ -22,25 +23,19 @@
 						<!-- <ul class="nav-mobile"> -->
 						<li><a href="#page-home" class="nav-links">Home</a></li>
 						<!-- <li><a href="#page-rsvp">RSVP</a></li> -->
-		 				<li><a href="#page-venue" class="nav-links">Venue</a></li>
-						<li><a href="#page-hotel" class="nav-links">Hotel</a></li>
+		 				<li><a href="#venue" class="nav-links">Venue</a></li>
+						<li><a href="#hotel" class="nav-links">Hotel</a></li>
 						<li><a href="pages/attractions.html" class="nav-links" target="_blank">Things to do</a></li>
-						<li><a href="#page-registry" class="nav-links">Registry</a></li>
 						<!-- </ul> -->
 					</nav>
 				<hr max-width="1000px" color="green">
 			</div><!--header-->
 
 			<div class="row">
-				<div class="column1">
-					<h1 class="titles">Our Story</h1>
-				</div><!--column1-->
-
 				<div class="column2">
-					<h1 class="titles">Are you coming?</h1>
-					<li><a href="#page-rsvp">RSVP</a></li>
-					<h1 class="titles">Countdown</h1>
-				</div><!--column2-->
+					<h1 class="titles"><a name="venue">Venue</h1>
+				</div>
+			</div><!--column2-->
 
 				<script type="text/javascript">
 					var CDown = function() {
@@ -136,7 +131,7 @@
 				<div id="countbox1"></div>
 			</div><!--row-->
 
-			<div class="PaintedBride">
+		<div class="PaintedBride">
 
 				<p><a href="#https://paintedbride.org/">The Painted Bride</a> is a very unique venue. It houses a gallery space, an art café, and a black box theatre. Martin volunteered, and worked at the Painted Bride during, and after college. It remains his favorite place in Philadelphia. You can even <a href="#http://www.phillylovenotes.com/martin-brown-painted-bride//">read a love note that Martin wrote</a> to the Painted Bride to learn more about his long-term love affair with this very special place. As you can imagine, we are so excited to celebrate our wedding here with our family and friends!</p>
 
@@ -155,10 +150,16 @@
 					<p>If you are staying in Philadelphia, we recommend using a cab or Uber/Lyft service. The closest subway stop is the 2nd street stop on the Market Frankford Line.</p>
 
 					<p>If you are driving to the venue, street parking is limited. Refer to the <a href="https://paintedbride.org/directions-parking/">Painted Bride’s Parking Information </a>for more details, especially <a href="https://www.google.com/maps/d/viewer?ll=39.955938%2C-75.143995&spn=0.005856%2C0.009645&hl=en&msa=0&z=17&ie=UTF8&mid=1mlP_nTVpwpCXzMqyZ7eZyi0pUfY">their very handy map of parking garages </a> that are close to the venues. </p>
-			</div><!--PaintedBride-->
+			</div><!--PaintedBride--><!--jump_menu-->
+			
+			<!-- <div class="HotelandTravel">
+				<h1 class="titles"><a name="#hotel class="nav-links">Hotel and Travel Recommendations</a></h1> -->
 
-			<div class="HotelandTravel">
-				<h1 class="titles">Hotel and Travel Recommendations</h1>
+			<div class="row">
+				<div class="column2">
+					<h1 class="titles"><a name="hotel">Hotel + Recommendations</a></h1>
+				</div>
+			</div>
 
 				<p>We have reserved blocks of rooms for Friday the 13th and Saturday the 14th at the <strong>Franklin Inn and Hotel Monaco. </strong></p>
 
@@ -185,6 +186,6 @@
 		</div><!--HotelandTravel-->
 
 		</div><!--wrapper-->
-
+<script type="text/javascript" src="../js/main.js"></script>
 	</body>
 </html>

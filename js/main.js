@@ -1,4 +1,4 @@
-require('../.sass-cache/main.scss');
+// require('../.sass-cache/main.scss');
 // ^ cannot get this to link to the main.scss !!!
 
 var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab')),
