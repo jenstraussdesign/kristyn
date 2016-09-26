@@ -21,3 +21,4 @@ tabs.map(function(tab) {
         currentTab = newTabValue;
     });
 });
+
