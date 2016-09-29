@@ -18,26 +18,66 @@ nav, li {
 .titles {
   font-family: 'Great Vibes', 'script'; }
 
-.nav-links {
+.home-link {
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+.venue-link {
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+.event-link {
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+.hotel-link {
   line-height: 32px;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+.direction-link {
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+.attraction-link {
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px; }
+
+#credit {
+  font-size: 12px; }
 
 /* unvisited link */
 a:link {
-  color: red; }
+  color: #018D4D; }
 
 /* visited link */
 a:visited {
-  color: green; }
+  color: #018D4D; }
 
 /* mouse over link */
 a:hover {
-  color: hotpink; }
+  color: #EE483A; }
 
 /* selected link */
 a:active {
-  color: blue; }
+  color: #018D4D; }
 
 .header_places {
   position: relative;
@@ -55,6 +95,16 @@ a:active {
   left: 0;
   width: 100%; }
 
+#eat {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px; }
+
+#bar {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px; }
+
 .tab--container {
   display: flex;
   align-items: center;
@@ -64,11 +114,61 @@ a:active {
   margin: 0 20px; }
 
 .tab--active {
-  background-color: red; }
+  background-color: #EE483A; }
 
 .hidden {
   display: none; }
 
+#countbox1 {
+  font-family: 'Great Vibes', 'script';
+  font-size: 24pt;
+  color: #EE483A;
+  padding: 5px; }
+
+.PaintedBride {
+  padding: 10px; }
+
+.schedule {
+  padding: 10px; }
+
+.directions {
+  padding: 10px; }
+
+.hotel {
+  padding: 10px; }
+
+.nav,
+.content {
+  display: flex; }
+
+.nav a,
+.content > div {
+  box-sizing: border-box;
+  padding: 0 2%;
+  width: 33.33%; }
+
+@media screen and (max-width: 39.99em) {
+  .nav a {
+    border-bottom: 2px solid gray;
+    color: black;
+    display: inline-block;
+    padding: 1em;
+    text-align: center; }
+
+  .nav a.active {
+    border-bottom: 5px solid gray;
+    font-weight: bold; }
+
+  .content-wrapper {
+    width: 100%;
+    overflow: hidden; }
+
+  .content {
+    padding: 0.5em 0;
+    width: 300%; } }
+@media screen and (min-width: 40em) {
+  .nav {
+    display: none; } }
 /*.line1 {
 	top: 200px; 
 	width: 100%;
