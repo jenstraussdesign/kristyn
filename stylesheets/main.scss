@@ -104,13 +104,7 @@ a:active {
    width: 100%; 
 }
 
-#eat {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-#bar {
+#eat, bar {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
@@ -141,19 +135,7 @@ a:active {
   padding: 5px;
 }
 
-.PaintedBride {
-  padding: 10px;
-}
-
-.schedule {
-  padding: 10px;
-}
-
-.directions {
-  padding: 10px;
-}
-
-.hotel {
+.PaintedBride, .schedule, .directions, .hotel {
   padding: 10px;
 }
 
