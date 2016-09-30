@@ -95,7 +95,7 @@ a:active {
   left: 0;
   width: 100%; }
 
-#eat, bar {
+#eat, #bar, #visit {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px; }
