@@ -133,6 +133,10 @@ a:active {
   padding: 0 2%;
   width: 33.33%; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 @media screen and (max-width: 39.99em) {
   .nav a {
     border-bottom: 2px solid gray;
